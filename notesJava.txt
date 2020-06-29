@@ -1,0 +1,53 @@
+1) Static:
+Static property is shared to all objects
+static method can be invoked without a need for creating an instance of class
+Static method cant access non static variable or non static method, this and super can't be used in static method
+
+2) this:
+used to refer current class instance variable
+to invoke current class method
+this() to invoked current class constructor ( must be called first)
+pass as argument in the method call
+
+3) final: 
+to restrict the user:
+- final variable can't be changed
+- final method cant be override/overloadding
+- final class can't be extend
+- blank final variable can be initialized in constructor
+
+
+4) super:
+- used to refer immediate parent class instance variable
+- to invoke immediate parent class method
+- super() to invoke immediate parent class constructor
+
+5) Overloading and overriding:
+- Overloading: same name but different parameters
+- Overriding: same name, same parameters but different implementation
+
+6) Access modifiers (within class, within package, outside package by subclass only, outside package)
+- private(1) -> default(2) -> protected(3) -> public(4)
+
+7) OOP: Inheritance, polymorphism(polimofizam): overriding/ overloading, abstraction, encapsulation(access modifiers)
+
+8) arraylist, array :
+- array: fixed sized, can contain both primitive and objects
+- arraylist: dynamic sized, contain only objects
+9) hashmap, hashset
+- hashmap: stored in key value => cant duplicate key, only 1 key null
+- hashset: no duplicate.
+
+10) linkedList
+- the elements using pointers and addresses => usefull when insert, delete (first, last)
+
+
+11) abstract and interface 
+- abstract: có access modifiers, dont must to extends all methods of abstract
+- interface: must be public, must implement all methods
+11) default method in java
+- When we need to add more method in interface class and dont want to implement these methods in subclass.
+- use with lambda: parameter -> expression body: System.out.println(getStr("Hello Loda!", input -> input.toUpperCase()));
+
+12) stream: used as a pipe => increase performance
+13) method reference: use with static method, constructor
